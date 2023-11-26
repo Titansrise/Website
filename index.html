@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Titansrise</title>
+    <style>
+        h1 {text-align: center;}
+
+        html, body {
+        overflow: hidden;
+        width: 100%;
+        height:100%;
+        }
+
+        body {
+            background: linear-gradient(-45deg, rgb(255, 99, 71), #000000, rgb(255, 99, 71), #000000);
+            background-size: 400% 400%;
+            animation: gradient 60s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        #box {
+            height: 170px;
+            width: 700px;
+            font-size: 48px;
+            color: #000000;
+            text-align: center;
+            margin: auto;
+            position: absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:rgb(255, 99, 71);background-color:rgb(0, 0, 0);">Titansrise</h1>
+
+    <div id="box">
+    "It's no use going back to yesterday, because I was a different person then."
+    </div>
+</body>
+</html>
