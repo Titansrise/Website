@@ -30,7 +30,7 @@
             }
         }
 
-        #box {
+        #box1 {
             height: 170px;
             width: 700px;
             font-size: 48px;
@@ -39,6 +39,38 @@
             margin: auto;
             position: absolute;
             top: 0; left: 0; bottom: 0; right: 0;
+
+            animation: flux1 120s ease infinite;
+        }
+
+        @keyframes flux1 {
+              0% { opacity:1;}
+             25% { opacity:0;}
+             50% { opacity:0;}
+             75% { opacity:0;}
+            100% { opacity:1;}
+        }
+
+        #box2 {
+            height: 170px;
+            width: 700px;
+            font-size: 48px;
+            color: #000000;
+            text-align: center;
+            margin: auto;
+            position: absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+
+            animation: flux2 120s ease infinite;
+        }
+
+
+        @keyframes flux2 {
+              0% { opacity:0;}
+             25% { opacity:0;}
+             50% { opacity:1;}
+             75% { opacity:0;}
+            100% { opacity:0;}
         }
 
         #HeaderSec {
@@ -54,8 +86,12 @@
 
     <h1 style="color:#0bfbd5;background-color:rgb(0, 0, 0);"><div id="HeaderSec"><img src="Logo.png" width="96" height="92"> Titansrise</div></h1>
 
-    <div id="box">
+    <div id="box1">
     "It's no use going back to yesterday, because I was a different person then."
+    </div>
+
+    <div id="box2">
+    "The world is divided into two classes, those who believe the incredible, and those who do the improbable."
     </div>
 </body>
 </html>
