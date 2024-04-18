@@ -13,34 +13,32 @@
         }
 
         body {
-            background: linear-gradient(-45deg, rgb(255, 99, 71), #000000, rgb(255, 99, 71), #000000);
+            background: linear-gradient(-45deg, rgb(64, 128, 64), #000000, rgb(64, 128, 64), #000000);
             background-size: 400% 400%;
             animation: gradient 60s ease infinite;
         }
 
         @keyframes gradient {
             0% {
-                background-position: 0% 50%;
+                background-position: 0% 0%;
             }
             50% {
                 background-position: 100% 50%;
             }
             100% {
-                background-position: 0% 50%;
+                background-position: 0% 0%;
             }
         }
 
         #box1 {
-            height: 170px;
-            width: 700px;
+            object-fit: contain;
             font-size: 48px;
             color: #000000;
             text-align: center;
             margin: auto;
-            position: absolute;
+            position: center;;
             top: 0; left: 0; bottom: 0; right: 0;
-
-            animation: flux1 120s ease infinite;
+            object-fit: scale-down;
         }
 
         @keyframes flux1 {
@@ -87,11 +85,7 @@
     <h1 style="color:#0bfbd5;background-color:rgb(0, 0, 0);"><div id="HeaderSec"><img src="Logo.png" width="96" height="92"> Titansrise</div></h1>
 
     <div id="box1">
-    "It's no use going back to yesterday, because I was a different person then."
-    </div>
-
-    <div id="box2">
-    "The world is divided into two classes, those who believe the incredible, and those who do the improbable."
+     <img src = "Page1.svg" alt=Portfolio"/>
     </div>
 </body>
 </html>
