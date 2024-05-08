@@ -29,20 +29,6 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Image1
-{
-   vertical-align: top;
-}
-#Image1
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #WrapText1
 {
    background-color: transparent;
@@ -121,4 +107,18 @@ body
    -webkit-animation: animate-background 1000ms linear 0ms infinite normal both;
    -moz-animation: animate-background 1000ms linear 0ms infinite normal both;
    animation: animate-background 1000ms linear 0ms infinite normal both;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
