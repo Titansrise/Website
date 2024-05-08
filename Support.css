@@ -1,0 +1,273 @@
+div#container
+{
+   width: 1650px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: transparent;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#WrapText1
+{
+   background-color: transparent;
+   background-image: none;
+}
+.WrapText1
+{
+   position: absolute;
+   white-space: nowrap;
+   border-width: 0px;
+   color: #0AFBD6;
+   font-family: Arial;
+   font-weight: normal;
+   font-size:34.80px;
+   font-style: normal;
+   text-align: right;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#WrapText2
+{
+   background-color: transparent;
+   background-image: none;
+}
+.WrapText2
+{
+   position: absolute;
+   white-space: nowrap;
+   border-width: 0px;
+   color: #0AFBD6;
+   font-family: Arial;
+   font-weight: normal;
+   font-size:34.80px;
+   font-style: normal;
+   text-align: left;
+}
+#WrapText4
+{
+   background-color: transparent;
+   background-image: none;
+}
+#WrapText4
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+.WrapText4
+{
+   border-width: 0px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size:23.80px;
+   font-style: normal;
+   line-height: 1.2;
+   text-align: left;
+}
+#WrapText4-float
+{
+   float: right;
+   font-size: 0px;
+}
+#WrapText5
+{
+   background-color: transparent;
+   background-image: none;
+}
+#WrapText5
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+.WrapText5
+{
+   border-width: 0px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size:23.80px;
+   font-style: normal;
+   line-height: 1.2;
+   text-align: left;
+}
+#WrapText5-float
+{
+   float: right;
+   font-size: 0px;
+}
+#WrapText6
+{
+   background-color: transparent;
+   background-image: none;
+}
+#WrapText6
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+.WrapText6
+{
+   border-width: 0px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size:23.80px;
+   font-style: normal;
+   line-height: 1.2;
+   text-align: left;
+}
+#WrapText6-float
+{
+   float: right;
+   font-size: 0px;
+}
+#WrapText3
+{
+   background-color: transparent;
+   background-image: none;
+}
+.WrapText3
+{
+   position: absolute;
+   white-space: nowrap;
+   border-width: 0px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size:23.80px;
+   font-style: normal;
+   text-align: right;
+}
+#WrapText7
+{
+   background-color: transparent;
+   background-image: none;
+}
+.WrapText7
+{
+   position: absolute;
+   white-space: nowrap;
+   border-width: 0px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size:23.80px;
+   font-style: normal;
+   text-align: right;
+}
+        h1 {text-align: center;
+            vertical-align: center;}
+
+        html, body {
+        overflow: hidden;
+        width: 100%;
+        height:100%;
+        }
+
+        body {
+            background: linear-gradient(-45deg, rgb(32, 32, 32), #000000, rgb(32, 32, 32), #000000);
+            background-size: 400% 400%;
+            animation: gradient 60s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        #box1 {
+            height: 170px;
+            width: 700px;
+            font-size: 48px;
+            color: #000000;
+            text-align: center;
+            margin: auto;
+            position: absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+
+            animation: flux1 120s ease infinite;
+        }
+
+        @keyframes flux1 {
+              0% { opacity:1;}
+             25% { opacity:0;}
+             50% { opacity:0;}
+             75% { opacity:0;}
+            100% { opacity:1;}
+        }
+
+        #box2 {
+            height: 170px;
+            width: 700px;
+            font-size: 48px;
+            color: #000000;
+            text-align: center;
+            margin: auto;
+            position: absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+
+            animation: flux2 120s ease infinite;
+        }
+
+
+        @keyframes flux2 {
+              0% { opacity:0;}
+             25% { opacity:0;}
+             50% { opacity:1;}
+             75% { opacity:0;}
+            100% { opacity:0;}
+        }
+
+        #HeaderSec {
+            height: 90%;
+            width:100%;
+            display:flex;
+            align-items: center;
+            justify-content: 30%;
+        }
+    
