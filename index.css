@@ -104,9 +104,6 @@ body
 {
    border: 0px solid transparent;
    margin: 0;
-   -webkit-animation: animate-background 1000ms linear 0ms infinite normal both;
-   -moz-animation: animate-background 1000ms linear 0ms infinite normal both;
-   animation: animate-background 1000ms linear 0ms infinite normal both;
 }
 #wb_Image1
 {
